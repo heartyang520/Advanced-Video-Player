@@ -17,6 +17,6 @@ function  fileget2($url,$timeout = 5) {
 	return curl_exec($curl);
 	curl_close($curl);
 }
-$json = fileget2('http://api.yujn.cn/api/nvgao.php?type=text',5);
+$json = fileget2('https://pf129.com/xjj/get/get1.php',5);
 echo $json;
 ?>
